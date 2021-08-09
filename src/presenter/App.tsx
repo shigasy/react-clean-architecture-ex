@@ -18,6 +18,7 @@ const App = ({ useCase }: Props) => {
   return <h1>ほげほげ {JSON.stringify(articles)} {articles.map((article) => (
     <span key={article.id}>
       {article.name}
+      {article.formattedDate}
     </span>
   ))}</h1>
 }

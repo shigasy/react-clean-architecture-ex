@@ -18,6 +18,6 @@ export class Article {
   }
 
   get formattedDate(): string {
-    return `${this.createdAt.getFullYear}-${String(this.createdAt.getMonth() + 1).padStart(2, "0")}-${String(this.createdAt.getDate()).padStart(2, "0")}`
+    return `${this.createdAt.getFullYear()}-${String(this.createdAt.getMonth() + 1).padStart(2, "0")}-${String(this.createdAt.getDate()).padStart(2, "0")}`
   }
 }
