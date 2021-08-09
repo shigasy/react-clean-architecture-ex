@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+mockServer/node_modules
 /.pnp
 .pnp.js
 
